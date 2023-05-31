@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import hermesImg from '../public/assets/projects/hermesProj.png'
 import ProjectItem from './ProjectItem'
-import boxBuddyImg from '../public/assets/projects/hermesProj.png'
-import blackjackImg from '../public/assets/projects/hermesProj.png'
-import odeszaImg from '../public/assets/projects/hermesProj.png'
+import boxBuddyImg from '../public/assets/projects/boxBuddy-main.png'
+import blackjackImg from '../public/assets/projects/blackjack1.png'
+import odeszaImg from '../public/assets/projects/odesza-forum.png'
 
 
 export const Projects = () => {
@@ -16,12 +16,12 @@ export const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
-
-            <ProjectItem title='Hermes App' description='Front-End Crypto Application' backgroundImg={hermesImg} projectUrl='/hermesApp' />
-            <ProjectItem title='Box Buddy' description='Full-Stack Mobile Fitness Application' backgroundImg={hermesImg} projectUrl='/boxBuddy' />
-            <ProjectItem title='Blackjack Game' description='Front-End Logic-based Blackjack Game' backgroundImg={hermesImg} projectUrl='/blackjack' />
-            <ProjectItem title='Odesza Forum' description='Full-Stack Odesza Fan Forum' backgroundImg={hermesImg} projectUrl='/odeszaForum' />
-
+              
+              <ProjectItem title='Box Buddy' description='Full-Stack Mobile Fitness Application' backgroundImg={boxBuddyImg} projectUrl='/boxBuddy' className='w-64 h-32' />
+              <ProjectItem title='Hermes App' description='Front-End Crypto Application' backgroundImg={hermesImg} projectUrl='/hermesApp' />
+              <ProjectItem title='Odesza Forum' description='Odesza Fan Site with Socket.io' backgroundImg={odeszaImg} projectUrl='/odeszaForum' />
+              <ProjectItem title='Blackjack Game' description='Logic-based Blackjack Game' backgroundImg={blackjackImg} projectUrl='/blackjack' />
+              
             </div>
         </div>
     </div>
