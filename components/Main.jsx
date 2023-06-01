@@ -2,6 +2,8 @@ import React from 'react'
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import Link from 'next/link';
+
 
 function Main() {
   return (
@@ -15,7 +17,7 @@ function Main() {
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>Dedicated full-stack software engineer proficient in front-end design, server-side logic, and back-end routing/debugging.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaLinkedinIn/>
+                        <FaLinkedinIn href='https://www.linkedin.com/in/ethan-lehman-web3/' />
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <FaGithub/>

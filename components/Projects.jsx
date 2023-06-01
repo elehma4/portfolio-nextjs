@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem'
 import boxBuddyImg from '../public/assets/projects/boxBuddy-main.png'
 import blackjackImg from '../public/assets/projects/blackjack1.png'
 import odeszaImg from '../public/assets/projects/odesza-forum.png'
+import portfolioImg from '../public/assets/projects/portfolio-home.png'
 
 
 export const Projects = () => {
@@ -19,7 +20,8 @@ export const Projects = () => {
               
               <ProjectItem title='Box Buddy' description='Full-Stack Mobile Fitness Application' backgroundImg={boxBuddyImg} projectUrl='/boxBuddy' className='w-64 h-32' />
               <ProjectItem title='Hermes App' description='Front-End Crypto Application' backgroundImg={hermesImg} projectUrl='/hermesApp' />
-              <ProjectItem title='Odesza Forum' description='Odesza Fan Site with Socket.io' backgroundImg={odeszaImg} projectUrl='/odeszaForum' />
+              <ProjectItem title='My Portfolio Site' description='Front-End Next.js Portfolio Site' backgroundImg={portfolioImg} projectUrl='/myPortfolio' />
+              <ProjectItem title='Odesza Forum' description='Odesza forums with Socket.io' backgroundImg={odeszaImg} projectUrl='/odeszaForum' />
               <ProjectItem title='Blackjack Game' description='Logic-based Blackjack Game' backgroundImg={blackjackImg} projectUrl='/blackjack' />
               
             </div>

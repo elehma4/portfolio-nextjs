@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../../components/Navbar';
 import Image from 'next/image';
-import blackjackImg from '../../public/assets/projects/blackjack1.png'
+import portfolioImg2 from '../../public/assets/projects/portfolio-skills.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
-function blackjack() {
+function boxBuddy() {
   return (
     <div className='w-full'>
         <Navbar/>
@@ -13,10 +13,10 @@ function blackjack() {
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
 
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={blackjackImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={portfolioImg2} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-            <h2 className='py-2'>Blackjack Game</h2>
-            <h3>Javascript / Express.js / HTML / CSS</h3>
+            <h2 className='py-2'>My Portfolio</h2>
+            <h3>React / Next.js / Tailwind CSS</h3>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ function blackjack() {
           <h2>Overview</h2>
           <p>Description</p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <Link href='https://github.com/ETH1Elohim/blackjack-game'><button className='px-8 py-2 mt-4'>Code</button></Link>
+          <Link href='https://github.com/ETH1Elohim/portfolio-nextjs'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
@@ -46,4 +46,4 @@ function blackjack() {
   )
 }
 
-export default blackjack
+export default boxBuddy

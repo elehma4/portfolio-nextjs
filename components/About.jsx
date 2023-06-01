@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I am</h2>
                 <p className='py-2 text-gray-600'>Full-stack software engineer with a passion for decentralized finance and the transformational potential of blockchain technology. I am looking to utilize my strengths in web development and deep understanding of blockchain technologies to contribute to the evolution of the decentralized digital economy and make a positive impact in a DeFi/Crypto organization.</p>
-                <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+                <Link href='/#projects'><p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p></Link>
             </div>
             
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
