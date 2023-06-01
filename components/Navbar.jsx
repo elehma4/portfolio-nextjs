@@ -110,16 +110,16 @@ const Navbar = () => {
                         <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaLinkedinIn/>
+                            <Link href='https://www.linkedin.com/in/ethan-lehman-web3/'><FaLinkedinIn /></Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaGithub/>
+                            <Link href='https://github.com/ETH1Elohim'><FaGithub/></Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <AiOutlineMail/>
+                            <Link href="mailto:elehman.development@gmail.com"><AiOutlineMail/></Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <BsFillPersonLinesFill/>
+                            <Link href='/assets/Ethan_Lehman_Resume_Crypto1.pdf'><BsFillPersonLinesFill/></Link>
                             </div>
                         </div>
                     </div>
