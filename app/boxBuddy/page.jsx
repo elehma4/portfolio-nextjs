@@ -38,7 +38,7 @@ function boxBuddy() {
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Express.js </p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Sequelize.js </p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> PostgreSQL </p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Passport </p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Passport.js </p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> bcryptjs </p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Cookie Session </p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Database GUI: Beekeeper </p>
