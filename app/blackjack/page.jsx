@@ -16,7 +16,7 @@ function blackjack() {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={blackjackImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'>Blackjack Game</h2>
-            <h3>Javascript / Express.js / HTML / CSS</h3>
+            <h3>Javascript</h3>
         </div>
       </div>
 
@@ -34,8 +34,7 @@ function blackjack() {
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> JavaScript </p>
               <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> HTML </p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> CSS </p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Express.js </p>
+              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> CSS (Flexbox) </p>
             </div>
           </div>
         </div>
