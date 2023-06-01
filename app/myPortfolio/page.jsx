@@ -5,7 +5,7 @@ import portfolioImg2 from '../../public/assets/projects/portfolio-skills.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
-function boxBuddy() {
+function myPortfolio() {
   return (
     <div className='w-full'>
         <Navbar/>
@@ -46,4 +46,4 @@ function boxBuddy() {
   )
 }
 
-export default boxBuddy
+export default myPortfolio
