@@ -24,7 +24,7 @@ function blackjack() {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Description</p>
+          <p>This Blackjack Game is a front-end project that replicates the popular casino game. This project employs HTML, CSS, and JavaScript to create an interactive and visually appealing user experience. Users can deal, hit, or stand with the same rules as a traditional blackjack game, utilizing a deck of cards represented by an array of objects in the JavaScript code. Each card object features a name, value, and associated image file. Users can even decide the value of an Ace in real-time. The application handles different game scenarios such as blackjack, bust, and push outcomes, showcasing my proficiency in JavaScript logic and DOM manipulation.</p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <Link href='https://github.com/ETH1Elohim/blackjack-game'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
