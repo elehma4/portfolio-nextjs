@@ -24,7 +24,9 @@ function hermesApp() {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Description</p>
+          <p>Hermes App is a front-end crypto application designed to facilitate the swapping of cryptocurrencies. With a simplistic and user-friendly interface, users can track, manage, and stay updated on a variety of supported assets. The app consists of several key pages, including a swap page for real-time conversions, a tokens page displaying prices and charts, an insights page fetching news articles, and a portfolio page for asset management. Implemented with JavaScript, HTML, and CSS, the application integrates with CoinGecko and News APIs to provide accurate data. Currently in the beta stage, Hermes App offers a beginner-friendly platform for simulated trading and asset management.
+<br /><br />
+Hermes App combines my personal passion for decentralized finance and our commitment to creating a user-friendly experience for beginners. With a focus on consistency and attention to detail, the project ensures a seamless and visually appealing interface across all pages. The collaboration between Hunter and I resulted in efficient task allocation, smooth development, and a mutual leveraging of each other's strengths. The application offers accurate trading conversions, price charts, news articles, and a portfolio tracker, providing users with a realistic and engaging cryptocurrency experience.</p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <Link href='https://github.com/ETH1Elohim/front-end-project'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
