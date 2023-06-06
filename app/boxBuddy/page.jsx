@@ -24,7 +24,7 @@ function boxBuddy() {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Description</p>
+          <p>Box Buddy is a full-stack fitness app that allows users to create accounts, personalize profiles with a profile picture and bio, and create posts to share fitness achievements and notes on workouts. The app's PostgreSQL database manages interconnected tables to efficiently store user information, posts, personal records, and more. Users can add friends, like and comment on posts, facilitating a supportive and interconnected community. The app also features a notifications page to keep users informed about activities on their posts. Box Buddy provides a technical framework for users to track progress, connect with others, and stay motivated in their fitness journey. </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <Link href='https://github.com/ETH1Elohim/boxBuddy-fullstack'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
