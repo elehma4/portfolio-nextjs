@@ -24,7 +24,9 @@ function odeszaForum() {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Description</p>
+          <p>Odesza Forums is a web application using Express.js and Socket.io. By leveraging Express.js, I implemented CRUD (Create, Read, Update, Delete) functionality, empowering users to interact with the platform. RESTful API endpoints managed data, enabling users to contribute to forums, share messages, and engage. The integration of Socket.io added a real-time communication layer, enabling instant updates and synchronization across connected users. 
+<br /><br />
+This project serves as a demonstration of my ability to build scalable web applications. The combination of Express.js, CRUD operations, and Socket.io highlights my understanding in creating dynamic functionality and smooth user experiences. The successful implementation of real-time communication features shows my proficiency in learning cutting-edge technologies to deliver interactive platforms.</p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <Link href='https://github.com/ETH1Elohim/band-website'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
