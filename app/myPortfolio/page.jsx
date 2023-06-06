@@ -24,7 +24,13 @@ function myPortfolio() {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Description</p>
+          <p>My portfolio is a dynamic and visually appealing website built using React, Next.js, and Tailwind CSS. It showcases my skills, projects, and contact information in an organized and user-friendly manner. With a focus on responsive design, the portfolio ensures a seamless experience across different devices.
+<br /><br />
+The portfolio utilizes React as the foundation, providing a component-based architecture for efficient development and easy maintenance. Next.js enhances the performance and SEO capabilities of the website, making it fast and search engine friendly. Tailwind CSS offers a comprehensive set of utility classes, enabling rapid styling and customization.
+<br /><br />
+The portfolio consists of several sections, including a main section that introduces me and highlights my expertise, a projects section that showcases my latest projects with images and descriptions, a skills section that highlights the technologies and tools I'm proficient in, and a contact section where visitors can easily get in touch with me. The website incorporates smooth transitions, interactive elements, and a cohesive color scheme to create an engaging and memorable experience.
+<br /><br />
+Overall, my portfolio built with React, Next.js, and Tailwind CSS serves as a comprehensive showcase of my skills, projects, and contact information. It represents my proficiency in front-end development and demonstrates my ability to create visually appealing and responsive websites.</p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <Link href='https://github.com/ETH1Elohim/portfolio-nextjs'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
