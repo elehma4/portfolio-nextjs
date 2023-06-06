@@ -24,7 +24,11 @@ function boxBuddy() {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>Box Buddy is a full-stack fitness app that allows users to create accounts, personalize profiles with a profile picture and bio, and create posts to share fitness achievements and thoughts on workouts. The app's PostgreSQL database manages interconnected tables to efficiently store user information, posts, personal records, and more. Users can add friends, like and comment on posts, facilitating a supportive and interconnected community. The app also features a notifications page to keep users informed about activities on their posts as well as friend requests. Box Buddy provides a technical framework for users to track progress, connect with others, and stay motivated in their fitness journey. </p>
+          <p>Box Buddy is a dynamic full-stack fitness app that encompasses a range of features to empower users in their fitness endeavors. Individuals can create an account and personalize their profile by adding a profile picture and bio. The app's core functionality revolves around post creation, where users can share their fitness achievements, challenges, and thoughts. These posts are analyzed to identify personal records, enabling users to track their progress and celebrate milestones. The app's PostgreSQL database supports data management, ensuring efficient storage and retrieval of user information, posts, and personal records.
+<br /> <br />
+Users can connect with others by adding them as friends and engage with their posts by liking and commenting. This social interaction encourages support within the fitness community. The app also includes a notifications page that alerts users about activities related to their posts as well as friend requests. This feature ensures that users stay engaged and informed about the impact of their posts.
+<br /> <br />
+In summary, Box Buddy is a comprehensive full-stack fitness app designed to enhance the fitness journey of its users. From creating accounts and personalizing profiles to tracking personal records and engaging with the community, the app provides a rich and interactive experience with its interconnected PostgreSQL database and social features. </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <Link href='https://github.com/ETH1Elohim/boxBuddy-fullstack'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
