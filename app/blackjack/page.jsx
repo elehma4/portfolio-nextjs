@@ -24,7 +24,13 @@ function blackjack() {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>This Blackjack Game is a front-end project that replicates the popular casino game. This project employs HTML, CSS, and JavaScript to create an interactive and visually appealing user experience. Users can deal, hit, or stand with the same rules as a traditional blackjack game, utilizing a deck of cards represented by an array of objects in the JavaScript code. Each card object features a name, value, and associated image file. Users can even decide the value of an Ace in real-time. The application handles different game scenarios such as blackjack, bust, and push outcomes, showcasing my proficiency in JavaScript logic and DOM manipulation.</p>
+          <p>I designed and developed an engaging Blackjack game using HTML, CSS, and JavaScript. The game features a responsive layout and an intuitive user interface, providing players with an immersive and enjoyable game experience. Leveraging the power of JavaScript, I implemented the game logic, including card dealing, player actions, and dealer AI.
+<br /><br />
+The game utilizes a standard deck of cards represented by an array of objects, each containing the card's name, value, and image file. Players can interact with the game by clicking on buttons such as "Deal," "Hit," and "Stand." Upon clicking "Deal," the game dynamically generates two random cards for both the player and the dealer, displaying them in their respective hand sections.
+<br /><br />
+The game employs real-time point tracking for both the player and the dealer, updating the point totals with each dealt card. The player can choose to "Hit" to receive an additional card or "Stand" to end their turn. The dealer follows an AI-controlled strategy to determine their moves. The game also includes special functionality to handle the value of Ace cards, allowing players to choose between a value of 1 or 11.
+<br /><br />
+This Blackjack game showcases my proficiency in front-end web development and JavaScript programming. It demonstrates my ability to create interactive and dynamic user experiences, implement game logic, and handle real-time data updates.</p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           <Link href='https://github.com/ETH1Elohim/blackjack-game'><button className='px-8 py-2 mt-4'>Code</button></Link>
         </div>
