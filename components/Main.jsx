@@ -26,7 +26,7 @@ function Main() {
                         <Link href="mailto:elehman.development@gmail.com"><AiOutlineMail/></Link>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <Link href='/assets/Ethan_Lehman_Resume.pdf'><BsFillPersonLinesFill/></Link>
+                        <Link href='/assets/Ethan_Lehman_Resume2.pdf'><BsFillPersonLinesFill/></Link>
                     </div>
                 </div>
             </div>
