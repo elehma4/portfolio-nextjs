@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import pathwayImg from '../public/assets/projects/pathway-portal.png'
 import hermesImg from '../public/assets/projects/hermesProj.png'
 import ProjectItem from './ProjectItem'
 import boxBuddyImg from '../public/assets/projects/boxBuddy-main.png'
@@ -17,7 +18,7 @@ export const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
-              
+              <ProjectItem title="Pathway Finance (PATH)" description="Front-End Market Analysis Tool built with React" backgroundImg={pathwayImg} projectUrl='/pathwayFinance' />
               <ProjectItem title='Box Buddy' description='Full-Stack Mobile Fitness Application' backgroundImg={boxBuddyImg} projectUrl='/boxBuddy' className='w-64 h-32' />
               <ProjectItem title='Hermes App' description='Front-End Crypto Application' backgroundImg={hermesImg} projectUrl='/hermesApp' />
               <ProjectItem title='My Portfolio Site' description='Front-End Next.js Portfolio Site' backgroundImg={portfolioImg} projectUrl='/myPortfolio' />
