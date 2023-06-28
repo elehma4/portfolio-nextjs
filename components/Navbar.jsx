@@ -119,7 +119,7 @@ const Navbar = () => {
                             <Link href="mailto:elehman.development@gmail.com"><AiOutlineMail/></Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                            <Link href='/assets/Ethan_Lehman_Resume2.pdf'><BsFillPersonLinesFill/></Link>
+                            <Link href='/assets/Ethan_Lehman_Dev_Resume.pdf'><BsFillPersonLinesFill/></Link>
                             </div>
                         </div>
                     </div>
