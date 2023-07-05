@@ -22,8 +22,8 @@ export const Projects = () => {
               <ProjectItem title='Box Buddy' description='Full-Stack Mobile Fitness Application' backgroundImg={boxBuddyImg} projectUrl='/boxBuddy' className='w-64 h-32' />
               <ProjectItem title='Hermes App' description='Front-End Crypto Application' backgroundImg={hermesImg} projectUrl='/hermesApp' />
               <ProjectItem title='My Portfolio Site' description='Front-End Next.js Portfolio Site' backgroundImg={portfolioImg} projectUrl='/myPortfolio' />
-              <ProjectItem title='Odesza Forum' description='Odesza forums with Socket.io' backgroundImg={odeszaImg} projectUrl='/odeszaForum' />
-              <ProjectItem title='Blackjack Game' description='Logic-based Blackjack Game' backgroundImg={blackjackImg} projectUrl='/blackjack' />
+              {/* <ProjectItem title='Odesza Forum' description='Odesza forums with Socket.io' backgroundImg={odeszaImg} projectUrl='/odeszaForum' /> */}
+              {/* <ProjectItem title='Blackjack Game' description='Logic-based Blackjack Game' backgroundImg={blackjackImg} projectUrl='/blackjack' /> */}
               
             </div>
         </div>
