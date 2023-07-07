@@ -14,7 +14,7 @@ const About = () => {
             </div>
             
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' width={200} height={200} src="../assets/headshot1.jpg" alt="/headshot"/>
+                <img className='rounded-xl' width={200} height={200} src="../assets/headshot_blue.jpg" alt="/headshot"/>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <img className='rounded-xl' width={237} height={237} src="../assets/profpic.jpeg" alt="/"/>
