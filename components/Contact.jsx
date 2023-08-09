@@ -9,7 +9,7 @@ import Link from 'next/link'
 function Contact() {
   return (
     <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
+        <div className='max-w-[1400px] m-auto px-2 py-16 w-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
             <h2 className='py-4'>Get In Touch</h2>
         
@@ -22,8 +22,8 @@ function Contact() {
                     </div>
                     <div>
                         <h2 className='py-2'>Ethan Lehman</h2>
-                        <p>Full-Stack Engineer</p>
-                        <p className='py-4'>I am available for a full-time position. Contact me and let's talk.</p>
+                        <p>JR Full-Stack Developer</p>
+                        <p className='py-4'>I am currently open to new job offers, let's talk.</p>
                     </div>
 
                 <div>
