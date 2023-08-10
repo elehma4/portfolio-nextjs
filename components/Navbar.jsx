@@ -59,11 +59,11 @@ const Navbar = () => {
                     <Link href='/#about' scroll={false}>
                         <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                     </Link>
-                    <Link href='/#skills' scroll={false}>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-                    </Link>
                     <Link href='/#projects' scroll={false}>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                    </Link>
+                    <Link href='/#skills' scroll={false}>
+                        <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
                     </Link>
                     <Link href='/#contact' scroll={false}>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
@@ -96,11 +96,11 @@ const Navbar = () => {
                         <Link onClick={()=> setNav(false)} href='/#about'>
                         <li className='py-4 text-sm'>About</li>
                         </Link>
-                        <Link onClick={()=> setNav(false)} href='/#skills'>
-                        <li className='py-4 text-sm'>Skills</li>
-                        </Link>
                         <Link onClick={()=> setNav(false)} href='/#projects'>
                         <li className='py-4 text-sm'>Projects</li>
+                        </Link>
+                        <Link onClick={()=> setNav(false)} href='/#skills'>
+                        <li className='py-4 text-sm'>Skills</li>
                         </Link>
                         <Link onClick={()=> setNav(false)} href='/#contact'>
                         <li className='py-4 text-sm'>Contact</li>

@@ -23,6 +23,19 @@ function Skills() {
                 </div>
             {/* End Skill */}
             {/* Begin Skill */}
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/typescript.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>TypeScript</h3>
+                        </div>
+
+                    </div>
+                </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
@@ -34,6 +47,32 @@ function Skills() {
 
                     </div>
                 </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/nextjs.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Next.js</h3>
+                        </div>
+
+                    </div>
+                </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
+                {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/css.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>CSS</h3>
+                        </div>
+
+                    </div>
+                </div> */}
             {/* End Skill */}
             {/* Begin Skill */}
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
@@ -49,7 +88,85 @@ function Skills() {
                 </div>
             {/* End Skill */}
             {/* Begin Skill */}
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/node.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Node.js</h3>
+                        </div>
+
+                    </div>
+                </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
+                {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/html.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>HTML</h3>
+                        </div>
+
+                    </div>
+                </div> */}
+            {/* End Skill */}
+            {/* Begin Skill */}
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/express.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Express.js</h3>
+                        </div>
+
+                    </div>
+                </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/postgresql.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>PostgreSQL</h3>
+                        </div>
+
+                    </div>
+                </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/sequelize.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Sequelize.js</h3>
+                        </div>
+
+                    </div>
+                </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/assets/skills/passport.png' width={64} height={64} alt='/' />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Passport.js</h3>
+                        </div>
+
+                    </div>
+                </div>
+            {/* End Skill */}
+            {/* Begin Skill */}
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/assets/skills/redux.png' width={64} height={64} alt='/' />
@@ -65,101 +182,10 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/assets/skills/html.png' width={64} height={64} alt='/' />
+                            <Image src='/assets/skills/solidity.png' width={64} height={64} alt='/' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>HTML</h3>
-                        </div>
-
-                    </div>
-                </div>
-            {/* End Skill */}
-            {/* Begin Skill */}
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/assets/skills/css.png' width={64} height={64} alt='/' />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>CSS</h3>
-                        </div>
-
-                    </div>
-                </div>
-            {/* End Skill */}
-            {/* Begin Skill */}
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/assets/skills/node.png' width={64} height={64} alt='/' />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Node</h3>
-                        </div>
-
-                    </div>
-                </div>
-            {/* End Skill */}
-            {/* Begin Skill */}
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/assets/skills/express.png' width={64} height={64} alt='/' />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Express JS</h3>
-                        </div>
-
-                    </div>
-                </div>
-            {/* End Skill */}
-            {/* Begin Skill */}
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/assets/skills/sequelize.png' width={64} height={64} alt='/' />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Sequelize JS</h3>
-                        </div>
-
-                    </div>
-                </div>
-            {/* End Skill */}
-            {/* Begin Skill */}
-            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/assets/skills/passport.png' width={64} height={64} alt='/' />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Passport JS</h3>
-                        </div>
-
-                    </div>
-                </div>
-            {/* End Skill */}
-            {/* Begin Skill */}
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/assets/skills/nextjs.png' width={64} height={64} alt='/' />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Next JS</h3>
-                        </div>
-
-                    </div>
-                </div>
-            {/* End Skill */}
-            {/* Begin Skill */}
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/assets/skills/postgresql.png' width={64} height={64} alt='/' />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>PostgreSQL</h3>
+                            <h3>Solidity</h3>
                         </div>
 
                     </div>
