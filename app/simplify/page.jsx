@@ -5,7 +5,7 @@ import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 import simplifyImg from '../../public/assets/projects/SimpFi-AI.png'
 
-function boxBuddy() {
+function simplify() {
   return (
     <div className='w-full'>
         <Navbar/>
@@ -49,4 +49,4 @@ function boxBuddy() {
   )
 }
 
-export default boxBuddy
+export default simplify
