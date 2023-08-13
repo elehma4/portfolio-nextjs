@@ -21,7 +21,7 @@ export const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
               <ProjectItem title="SimpFi.AI" description="SimpFi.AI is a product where users can automate operational workflows using AI (current)" backgroundImg={simplifyImg} projectUrl='/simplify' />
-              <ProjectItem title="Arbitrum Analytics" description="Arbitrum Analytics is a website designed to provide users with comprehensive insights into various protocols built on the Arbitrum network." backgroundImg={arbImg} projectUrl='/arbitrumAnalytics' />
+              <ProjectItem title="Arbitrum Analytics" description="Arbitrum Analytics is designed to provide users with comprehensive insights into various protocols built on the Arbitrum network." backgroundImg={arbImg} projectUrl='/arbitrumAnalytics' />
               <ProjectItem title="Pathway Finance (PATH)" description="Front-End Market Analysis Tool built with React" backgroundImg={pathwayImg} projectUrl='/pathwayFinance' />
               <ProjectItem title='Box Buddy' description='Full-Stack Mobile Fitness Application' backgroundImg={boxBuddyImg} projectUrl='/boxBuddy' className='w-64 h-32' />
               {/* <ProjectItem title='Hermes App' description='Front-End Crypto Application' backgroundImg={hermesImg} projectUrl='/hermesApp' /> */}

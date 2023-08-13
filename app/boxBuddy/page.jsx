@@ -29,8 +29,8 @@ function boxBuddy() {
 For data management, Box Buddy employs Sequelize.js as an ORM (Object-Relational Mapping) library to interact with the PostgreSQL database. This ensures efficient storage and retrieval of user information, posts, and personal records. The app leverages the Passport.js library for authentication and user management, enhancing security and providing a seamless login experience. 
 <br /><br />
 By incorporating these technologies, Box Buddy delivers a dynamic and interconnected experience for users to create accounts, personalize profiles, create posts, track personal records, connect with friends, and engage with friends in the community. In summary, Box Buddy is a comprehensive full-stack fitness app designed to enhance the fitness journey of its users. </p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <Link href='https://github.com/ETH1Elohim/boxBuddy-fullstack'><button className='px-8 py-2 mt-4'>Code</button></Link>
+          {/* <button className='px-8 py-2 mt-4 mr-8'>Demo</button> */}
+          <Link href='https://github.com/ETH1Elohim/boxBuddy-fullstack'><button className='px-8 py-2 mt-4'>Read Me</button></Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 h-fit'>
           <div className='p-2'>
