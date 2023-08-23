@@ -31,7 +31,7 @@ function Contact() {
                     <div className='flex items-center justify-between py-4'>
                         
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <Link href='https://www.linkedin.com/in/ethan-lehman-web3/'><FaLinkedinIn /></Link>
+                        <Link href='https://www.linkedin.com/in/ethan-lehman-development/'><FaLinkedinIn /></Link>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <Link href='https://github.com/ETH1Elohim'><FaGithub/></Link>

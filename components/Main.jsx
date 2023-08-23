@@ -24,7 +24,7 @@ function Main() {
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto sm:text-lg'>Building Positive & Impactful User Experiences.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <Link href='https://www.linkedin.com/in/ethan-lehman-web3/'><FaLinkedinIn className='w-5 h-5'/></Link>
+                        <Link href='https://www.linkedin.com/in/ethan-lehman-development/'><FaLinkedinIn className='w-5 h-5'/></Link>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <Link href='https://github.com/ETH1Elohim'><FaGithub className='w-5 h-5'/></Link>
